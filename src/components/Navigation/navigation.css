@@ -1,0 +1,101 @@
+.header {
+    background-color: #6b9080;
+    height: 86px;
+
+}
+
+.header .top-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .mobile-menu__wrapper {
+    display: none;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    right: 0;
+    z-index: 12;
+    background-color: red;
+}
+
+.header .mobile-menu__wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.header .mobile-menu__wrapper ul a {
+    font-size: 23px;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+}
+
+.header .top-menu {
+    width: 100%;
+}
+
+.header .top-menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    line-height: 86px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+}
+
+.header .top-menu ul li {
+    min-width: 18%;
+    text-align: center;
+    display: inline-block;
+}
+
+.header .top-menu__logo img {
+    height: 86px;
+    line-height: 86px;
+}
+
+.header .top-menu ul li a {
+    padding: 0 20px;
+    color: white;
+    line-height: 86px;
+    font-size: 19px;
+    display: block;
+    transition: 650ms ease;
+}
+
+.header .top-menu ul li a:hover, .header .top-menu ul li a.active {
+    background-color: #5a7a6c;
+    text-decoration: none;
+}
+
+.header .top-menu ul li .top-menu__logo:hover {
+    background-color: #6b9080;
+    text-decoration: none;
+}
+
+.top-menu__logo.active, .top-menu__logo:hover {
+    background-color: #6b9080 !important;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    height: 86px;
+    line-height: 86px;
+}

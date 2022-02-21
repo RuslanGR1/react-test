@@ -1,0 +1,105 @@
+.check-list__lable {
+    font-weight: normal;
+    padding-left: 10px;
+    font-size: 19px;
+}
+
+.list-add {
+    display: none;
+    border: 1px red;
+    overflow: hidden;
+}
+
+.list-add-active {
+    display: flex;
+}
+
+.list-add__button {
+    width: 35px;
+}
+
+body {
+    background-color: #eaf4f4;
+}
+
+.boards-section {
+
+}
+
+.boards-section__title {
+    margin: 30px 5px;
+
+}
+
+.boards-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.button {
+    background-color: #a4c3b2;
+    border: none;
+    color: white;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: #6b9080;
+    transition: all 0.5s ease;
+}
+
+.input {
+    outline: none;
+    border: none;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.input:active, .input:focus {
+    border: none;
+    outline: none;
+}
+
+.board-input-group {
+    display: flex;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.board-input-group .button {
+    margin-right: 0;
+}
+
+.board {
+    position: relative;
+    padding: 7px;
+    min-height: 100px;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    background-color: #cce3de;
+    width: 24%;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.board:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #cce5de;
+    -webkit-box-shadow: -3px 4px 12px 1px rgba(190, 201, 210, 0.2);
+    -moz-box-shadow: -3px 4px 12px 1px rgba(190, 201, 210, 0.2);
+    box-shadow: -3px 4px 12px 1px rgba(190, 201, 210, 0.2);
+}
+
+.board-close {
+    display: block;
+    line-height: 1;
+}
